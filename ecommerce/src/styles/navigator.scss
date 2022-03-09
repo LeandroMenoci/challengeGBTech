@@ -1,0 +1,36 @@
+.navigator {
+  background: #fff;
+  box-shadow: 0rem 0.4rem 0.3rem rgba(0, 0, 29, 0.22);
+
+  ul {
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    li {
+      font-family: Helvetica, sans-serif;
+      font-weight: bold;
+      line-height: 1.6rem;
+      text-align: center;
+      list-style: none;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+
+      a {
+        transition: color 0.2s;
+        text-decoration: none;
+        color: #ccc;
+
+        &:hover {
+          color: #ff7800;
+        }
+
+        &:active {
+          color: #ff7700a4;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 36rem;
+  background: #eee;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.4rem;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 1.7rem;
+  color: #999;
+  margin: 0.5rem 1rem;
+}
