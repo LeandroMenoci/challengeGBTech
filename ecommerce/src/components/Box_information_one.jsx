@@ -5,6 +5,8 @@ export function BoxInformationOne() {
   return (
     <div className="boxInformationOne">
       <BoxProduct></BoxProduct>
+      <BoxProduct></BoxProduct>
+      <BoxProduct></BoxProduct>
 
     </div>
   )
