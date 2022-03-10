@@ -3,6 +3,8 @@ import '../styles/button.scss'
 
 export function Button(props) {
   return (
-    <button className="button" {...props}></button>
+    <a href="#">
+      <button className="button" type="submit" {...props}></button>
+    </a>
   )
 }

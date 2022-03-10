@@ -14,4 +14,10 @@ button {
   text-transform: uppercase;
   width: 34.1rem;
   margin: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
 }
