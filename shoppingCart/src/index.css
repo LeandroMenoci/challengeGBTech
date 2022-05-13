@@ -5,9 +5,13 @@
 }
 
 html {
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica Neue, sans-serif;
 }
 
 body {
   background: #EEE;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
 }

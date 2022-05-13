@@ -1,0 +1,44 @@
+.boxTotal {
+  width: 341px;
+  height: 129px;
+  border-radius: 3px;
+  border: solid 1px #ccc;
+  display: flex;
+  flex-direction: column;
+  padding: 10.5px 0px;
+  background: #eee;
+  margin: 20px 10px 10px 10px;
+
+  .description {
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+
+    .produtos, 
+    .frete, 
+    .subTotal, 
+    .shippingTotal,
+    .desconto,
+    .discount,
+    .total,
+    .totalProduct {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #212122;
+      margin: 4.5px 13px 4.5px 14px
+    }
+
+    .desconto,
+    .discount {
+      color: #FF7800;
+    }
+
+    .total,
+    .totalProduct {
+      font-weight: bold;
+      
+    }
+    
+  }
+}
+

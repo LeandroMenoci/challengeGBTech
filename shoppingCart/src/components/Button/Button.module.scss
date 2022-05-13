@@ -9,4 +9,10 @@
   color: #FFF;
   font-weight: bold;
   text-transform: uppercase;
+  cursor: pointer;
+  transition: filter 0.2s;
+  margin: 10px;
+  &:hover {
+    filter: brightness(0.9);
+  }
 }
