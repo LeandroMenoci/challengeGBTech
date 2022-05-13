@@ -1,0 +1,23 @@
+.container {
+  height: 347px;
+  width: 341px;
+
+  .title {
+    font-size: 14px;
+    color: #999;
+    font-weight: bold;
+  }
+  .boxBag {
+    height: 325px;
+    width: 341px;
+    background: #FFF;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgb(0 0 29 / 22%);
+    border: none;
+
+    .boxProduct {
+      height: 90px;
+      width: 316px;
+    }
+  }
+}
