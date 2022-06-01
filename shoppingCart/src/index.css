@@ -15,3 +15,9 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+.container {
+  height: 720px;
+  width: 360px;
+  background: #D8D8D8;
+}
